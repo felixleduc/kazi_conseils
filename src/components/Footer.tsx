@@ -1,61 +1,107 @@
+import Link from "next/link";
+import Image from "next/image";
+
 export default function Footer() {
   return (
-    <div className="bg-[#1E1F3F] text-white">
-      <footer className="px-[60px] py-[30px] mx-auto w-full max-w-[1400px]">
-        <div className="flex justify-between items-center">
-          <h1 className="text-3xl font-bold">Kazi Conseils</h1>
+    <div className="bg-[#1E1F3F] text-white overflow-x-clip overflow-y-hidden">
+      <footer className="relative px-[60px] pt-[30px] pb-[60px] mx-auto w-full max-w-[1400px]">
+        <Image
+          src="/images/logo-kazi-blanc.png"
+          alt=""
+          aria-hidden="true"
+          width={1526}
+          height={742}
+          className="pointer-events-none select-none absolute right-[-30px] bottom-[-120px] w-[600px] h-auto opacity-5 z-0"
+        />
+        <div className="relative z-10 flex justify-between items-center">
+          <h1 className="text-3xl font-bold">
+            <Image
+              src="/images/logo-kazi-blanc.png"
+              alt="Kazi"
+              width={1526}
+              height={742}
+              className="w-[96px] h-auto"
+            />
+          </h1>
           <ul className="flex gap-10">
             <li>
-              <a
-                className="font-bold hover:text-black transition-colors"
-                href="#"
+              <Link
+                className="hover:opacity-70 transition-all duration-300"
+                href="/"
               >
                 Accueil
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                className="font-bold hover:text-black transition-colors"
-                href="#"
+              <Link
+                className="hover:opacity-70 transition-all duration-300"
+                href="/realisations"
               >
                 Réalisations
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                className="font-bold hover:text-black transition-colors"
-                href="#"
+              <Link
+                className="hover:opacity-70 transition-all duration-300"
+                href="/services"
               >
                 Services
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                className="font-bold hover:text-black transition-colors"
-                href="#"
+              <Link
+                className="hover:opacity-70 transition-all duration-300"
+                href="/contact"
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
 
-        <hr className="my-4" />
+        <hr className="mt-4 mb-8" />
 
         <div className="flex justify-between items-stretch">
           <div className="flex flex-col gap-2">
             <p>@kaziconseils</p>
             <p>
-              Tel : <a href="#">123 456-7890</a>
+              Tel :{" "}
+              <a
+                href="tel:1234567890"
+                className="hover:opacity-70 transition-all duration-300"
+              >
+                123 456-7890
+              </a>
             </p>
             <p>Où? Partout au Québec</p>
           </div>
           <div className="flex flex-col justify-between gap-2">
             <div className="flex gap-4 justify-end">
-              <a href="#">facebook</a>
-              <a href="#">linkedin</a>
+              <a
+                href="https://www.facebook.com/mariediane.perron"
+                className="hover:scale-110 transition-all duration-300"
+              >
+                <Image
+                  src="/icons/fb-logo.png"
+                  alt="fb"
+                  width={50}
+                  height={50}
+                  className="w-[40px] h-auto"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/marie-diane-perron-3a1537bb/"
+                className="hover:scale-110 transition-all duration-300"
+              >
+                <Image
+                  src="/icons/in-logo.png"
+                  alt="in"
+                  width={50}
+                  height={50}
+                  className="w-[40px] h-auto"
+                />
+              </a>
             </div>
-            <p>© Copyright 2025 Kazi Conseils - Tous droits réservés</p>
           </div>
         </div>
       </footer>
