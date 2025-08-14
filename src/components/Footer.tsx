@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { nav } from "@/data/navigation";
 
 export default function Footer() {
   return (
@@ -24,38 +25,16 @@ export default function Footer() {
             />
           </h1>
           <ul className="flex gap-10">
-            <li>
-              <Link
-                className="hover:opacity-70 transition-all duration-300"
-                href="/"
-              >
-                Accueil
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="hover:opacity-70 transition-all duration-300"
-                href="/realisations"
-              >
-                Réalisations
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="hover:opacity-70 transition-all duration-300"
-                href="/services"
-              >
-                Services
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="hover:opacity-70 transition-all duration-300"
-                href="/contact"
-              >
-                Contact
-              </Link>
-            </li>
+            {nav.map(({ name, href }) => (
+              <li key={href}>
+                <Link
+                  className="hover:opacity-70 transition-all duration-300"
+                  href={href}
+                >
+                  {name}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
 
@@ -79,6 +58,7 @@ export default function Footer() {
             <div className="flex gap-4 justify-end">
               <a
                 href="https://www.facebook.com/mariediane.perron"
+                target="_blank"
                 className="hover:scale-110 transition-all duration-300"
               >
                 <Image
@@ -91,6 +71,7 @@ export default function Footer() {
               </a>
               <a
                 href="https://www.linkedin.com/in/marie-diane-perron-3a1537bb/"
+                target="_blank"
                 className="hover:scale-110 transition-all duration-300"
               >
                 <Image
