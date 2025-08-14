@@ -1,6 +1,6 @@
-export default function ThreeSteps() {
+export default function StepsSection() {
   return (
-    <>
+    <div className="grid grid-cols-3 gap-16 pb-28">
       <div className="flex items-center gap-6">
         <p className="font-finalsix text-6xl font-[900] text-white rounded-full px-[20px] py-2 bg-[#1E1F3F]">
           1
@@ -28,6 +28,6 @@ export default function ThreeSteps() {
           les gestionnaires intermédiaires
         </p>
       </div>
-    </>
+    </div>
   );
 }
