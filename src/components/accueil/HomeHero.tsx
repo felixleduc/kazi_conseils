@@ -22,7 +22,7 @@ export default function HomeHero() {
             organisationnelle.
           </p>
           <a
-            href="/contact"
+            href="#contact-form"
             className="w-fit border-[1px] border-[#1E1F3F] rounded-4xl py-2 px-4 hover:scale-[102%] hover:border-[#DBE7F6] hover:bg-[#DBE7F6] transition-transform duration-100"
           >
             Consultation gratuite

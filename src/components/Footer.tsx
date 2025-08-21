@@ -12,19 +12,19 @@ export default function Footer() {
           aria-hidden="true"
           width={1526}
           height={742}
-          className="pointer-events-none select-none absolute right-[-30px] bottom-[-120px] w-[600px] h-auto opacity-5 z-0"
+          className="hidden md:inline pointer-events-none select-none absolute right-[-30px] bottom-[-120px] w-[600px] h-auto opacity-5 z-0"
         />
-        <div className="relative z-10 flex justify-between items-center">
+        <div className="relative z-10 md:flex md:justify-between md:items-center">
           <h1 className="text-3xl font-bold">
             <Image
               src="/images/logo-kazi-blanc.png"
               alt="Kazi"
               width={1526}
               height={742}
-              className="w-[96px] h-auto"
+              className="w-[128px] h-auto pb-6 md:w-[96px] md:pb-0"
             />
           </h1>
-          <ul className="flex gap-10">
+          <ul className="flex flex-col gap-4 md:flex-row md:gap-10">
             {nav.map(({ name, href }) => (
               <li key={href}>
                 <Link
@@ -53,6 +53,12 @@ export default function Footer() {
               </a>
             </p>
             <p>Où? Partout au Québec</p>
+            <a
+              href="/politiques"
+              className="hover:opacity-70 transition-all duration-300"
+            >
+              Mentions légales
+            </a>
           </div>
           <div className="flex flex-col justify-between gap-2">
             <div className="flex gap-4 justify-end">
@@ -83,6 +89,14 @@ export default function Footer() {
                 />
               </a>
             </div>
+            <a
+              href="https://www.dukelon.com/"
+              target="_blank"
+              className="opacity-70 hover:opacity-100 transition-all duration-300"
+            >
+              <span className="hidden md:inline">Designé par </span>
+              Dukelon Design
+            </a>
           </div>
         </div>
       </footer>

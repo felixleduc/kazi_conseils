@@ -75,7 +75,10 @@ export default function ContactForm() {
   }
 
   return (
-    <div className="rounded-4xl bg-white px-18 py-8 drop-shadow-xl max-w-[1060px] mx-auto">
+    <div
+      id="contact-form"
+      className="rounded-4xl bg-white px-18 py-8 drop-shadow-xl max-w-[1060px] mx-auto"
+    >
       <div className="flex flex-col gap-2 items-center pb-12">
         <h3 className="font-finalsix text-[30px] font-bold">
           NAVIGUER ENTRE STRATÉGIE, EXÉCUTION ET HUMAIN.

@@ -1,18 +1,18 @@
 export const nav = [
   {
-    name: "accueil",
+    name: "Accueil",
     href: "/",
   },
   {
-    name: "realisations",
+    name: "Réalisations",
     href: "/realisations",
   },
   {
-    name: "services",
+    name: "Services",
     href: "/services",
   },
   {
-    name: "contact",
+    name: "Contact",
     href: "/contact",
   },
 ];
