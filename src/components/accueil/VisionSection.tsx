@@ -2,9 +2,9 @@ import ValuesList from "@/components/accueil/ValuesList";
 
 export default function VisionSection() {
   return (
-      <div className="flex flex-col gap-10 pb-28 lg:flex-row lg:justify-between">
-        <div className="flex-1 border-[1px] border-[#1E1F3F] rounded-4xl min-h-[300px] lg:min-h-[480px]">
-          <div className="w-full h-full flex flex-col gap-4 justify-between py-6 px-6 text-left lg:px-10">
+      <div className="flex flex-col gap-10 pb-28 min-[1400px]:flex-row min-[1400px]:justify-between">
+        <div className="w-full border-[1px] border-[#1E1F3F] rounded-4xl min-h-[300px] md:max-w-[600px] md:mx-auto min-[1400px]:flex-1 min-[1400px]:min-h-[480px]">
+          <div className="w-full h-full flex flex-col gap-4 justify-between py-6 px-6 text-left min-[1400px]:px-10">
             <h4 className="font-finalsix text-3xl font-bold">VISION</h4>
             <p className="pb-6">
               Chez Kazi Conseils, nous aspirons à être un leader reconnu pour <br className="hidden min-[1400px]:inline" />
@@ -16,7 +16,7 @@ export default function VisionSection() {
             <ValuesList />
           </div>
         </div>
-        <div className="flex-1 bg-[#1E1F3F] rounded-4xl h-[300px] lg:h-[480px]" />
+        <div className="w-full bg-[#1E1F3F] rounded-4xl h-[300px] md:max-w-[600px] md:mx-auto min-[1400px]:flex-1 min-[1400px]:h-[480px]" />
       </div>
     );
   }

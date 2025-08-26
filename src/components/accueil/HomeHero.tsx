@@ -2,11 +2,11 @@ import HeroSection from "@/components/general/HeroSection";
 
 export default function HomeHero() {
   return (
-    <HeroSection innerClassName="flex flex-col gap-10 lg:flex-row lg:justify-between">
-      <div className="flex-1 order-2 lg:order-1 bg-[#1E1F3F] rounded-4xl h-[300px] lg:h-[546px]" />
-      <div className="flex-1 order-1 lg:order-2 border-[1px] border-[#1E1F3F] rounded-4xl min-h-[300px] lg:min-h-[546px]">
-        <div className="w-full h-full flex flex-col gap-4 justify-between py-8 px-6 lg:py-10 lg:pl-10 lg:pr-[70px] text-center lg:text-left items-center lg:items-start">
-          <h2 className="font-finalsix text-[32px] lg:text-[40px] font-bold">
+    <HeroSection innerClassName="flex flex-col gap-10 min-[1400px]:flex-row min-[1400px]:justify-between">
+      <div className="flex-1 order-2 min-[1400px]:order-1 bg-[#1E1F3F] rounded-4xl h-[300px] min-[1400px]:h-[546px]" />
+      <div className="flex-1 order-1 min-[1400px]:order-2 border-[1px] border-[#1E1F3F] rounded-4xl min-h-[300px] min-[1400px]:min-h-[546px]">
+        <div className="w-full h-full flex flex-col gap-4 justify-between py-8 px-6 min-[1400px]:py-10 min-[1400px]:pl-10 min-[1400px]:pr-[70px] text-center min-[1400px]:text-left items-center min-[1400px]:items-start">
+          <h2 className="font-finalsix text-[32px] min-[1400px]:text-[40px] font-bold">
             FAIRE LE PONT <br className="hidden min-[1400px]:inline" />
             ENTRE GESTIONNAIRE <br className="hidden min-[1400px]:inline" />
             ET ORGANISATION.
