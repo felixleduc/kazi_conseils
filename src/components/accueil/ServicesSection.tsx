@@ -12,8 +12,8 @@ export default function ServicesSection() {
           chaque organisation et gestionnaire.
         </p>
       </div>
-      <div className="grid grid-cols-1 gap-6 pb-28 place-items-center auto-rows-fr md:grid-cols-2 md:gap-10 lg:grid-cols-3 lg:gap-16">
-        <Card className="h-full max-w-xs flex flex-col">
+      <div className="grid grid-cols-1 gap-6 pb-28 px-4 place-items-center md:gap-10 md:px-16 lg:grid-cols-3 lg:gap-16 lg:px-0 lg:place-items-stretch">
+        <Card className="max-w-xs px-12 md:max-w-md md:px-20 md:text-center lg:max-w-full lg:px-10 lg:text-left">
           <h4 className="text-xl font-bold pb-4">
             Coaching de gestion <br />
             dans l&apos;action
@@ -26,7 +26,7 @@ export default function ServicesSection() {
             croissance avec assurance et impact.
           </p>
         </Card>
-        <Card className="h-full max-w-xs flex flex-col">
+        <Card className="max-w-xs px-12 md:max-w-md md:px-20 md:text-center lg:max-w-full lg:px-10 lg:text-left">
           <h4 className="text-xl font-bold pb-4">
             Accompagnement en gestion de changement
           </h4>
@@ -38,7 +38,7 @@ export default function ServicesSection() {
             collaboratifs, respectueux et efficients.
           </p>
         </Card>
-        <Card className="h-full max-w-xs flex flex-col">
+        <Card className="max-w-xs px-12 md:max-w-md md:px-20 md:text-center lg:max-w-full lg:px-10 lg:text-left">
           <h4 className="text-xl font-bold pb-4">
             Plans stratégiques et plans d&apos;exécution
           </h4>
