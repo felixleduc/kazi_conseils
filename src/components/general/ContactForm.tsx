@@ -80,10 +80,10 @@ export default function ContactForm() {
       className="rounded-4xl bg-white px-18 py-8 drop-shadow-xl max-w-[1060px] mx-auto"
     >
       <div className="flex flex-col gap-2 items-center pb-12">
-        <h3 className="font-finalsix text-[30px] font-bold">
+        <h3 className="font-finalsix text-[30px] font-bold text-center">
           NAVIGUER ENTRE STRATÉGIE, EXÉCUTION ET HUMAIN.
         </h3>
-        <p>Planifions votre consultation gratuite dès maintenant</p>
+        <p className="text-center">Planifions votre consultation gratuite dès maintenant</p>
       </div>
       <form
         onSubmit={handleSubmit}
@@ -214,7 +214,7 @@ export default function ContactForm() {
         <button
           type="submit"
           disabled={loading}
-          className="w-full md:w-fit border-[1px] border-[#1E1F3F] rounded-4xl py-2 px-20 hover:scale-[102%] hover:border-[#DBE7F6] hover:bg-[#DBE7F6] hover:cursor-pointer transition-transform duration-100 disabled:opacity-60 disabled:cursor-not-allowed"
+          className="w-1/2 md:w-1/2 border-[1px] border-[#1E1F3F] rounded-4xl py-2 px-20 hover:scale-[102%] hover:border-[#DBE7F6] hover:bg-[#DBE7F6] hover:cursor-pointer transition-transform duration-100 disabled:opacity-60 disabled:cursor-not-allowed mx-auto"
         >
           {loading ? "Envoi en cours..." : "Envoyer"}
         </button>

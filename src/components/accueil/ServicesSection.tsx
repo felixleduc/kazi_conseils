@@ -4,16 +4,16 @@ export default function ServicesSection() {
   return (
     <>
       <div className="flex flex-col gap-2 items-center pb-16">
-        <h3 className="font-finalsix text-[30px] font-bold">
+        <h3 className="font-finalsix text-[30px] font-bold text-center">
           NAVIGUER ENTRE STRATÉGIE, EXÉCUTION ET HUMAIN.
         </h3>
-        <p>
+        <p className="text-center">
           Des solutions sur mesure adaptées aux besoins spécifiques de
           chaque organisation et gestionnaire.
         </p>
       </div>
-      <div className="grid grid-cols-1 gap-6 pb-28 md:grid-cols-2 md:gap-10 lg:grid-cols-3 lg:gap-16">
-        <Card>
+      <div className="grid grid-cols-1 gap-6 pb-28 place-items-center auto-rows-fr md:grid-cols-2 md:gap-10 lg:grid-cols-3 lg:gap-16">
+        <Card className="h-full max-w-xs flex flex-col">
           <h4 className="text-xl font-bold pb-4">
             Coaching de gestion <br />
             dans l&apos;action
@@ -26,7 +26,7 @@ export default function ServicesSection() {
             croissance avec assurance et impact.
           </p>
         </Card>
-        <Card>
+        <Card className="h-full max-w-xs flex flex-col">
           <h4 className="text-xl font-bold pb-4">
             Accompagnement en gestion de changement
           </h4>
@@ -38,7 +38,7 @@ export default function ServicesSection() {
             collaboratifs, respectueux et efficients.
           </p>
         </Card>
-        <Card>
+        <Card className="h-full max-w-xs flex flex-col">
           <h4 className="text-xl font-bold pb-4">
             Plans stratégiques et plans d&apos;exécution
           </h4>
