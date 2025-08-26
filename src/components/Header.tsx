@@ -5,6 +5,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
 import { nav } from "@/data/navigation";
+import MobileNav from "./general/MobileNav";
 
 function isActive(pathname: string, href: string) {
   if (href === "/") {
@@ -19,7 +20,10 @@ export default function Header() {
   return (
     <div className="bg-[#FFFDFA]">
       <header className="px-[60px] py-[30px] mx-auto w-full max-w-[1400px] flex justify-between items-center">
-        <Link href="/" className="hover:opacity-70 transition-all duration-300">
+        <Link
+          href="/"
+          className="fixed top-8 left-8 z-50 lg:static lg:top-auto lg:left-auto hover:opacity-70 transition-all duration-300"
+        >
           <h1 className="text-3xl font-bold">
             <Image
               src="/images/logo-kazi-bleu.png"
@@ -60,7 +64,9 @@ export default function Header() {
         </Link>
 
         {/* Mobile */}
-        <div className="lg:hidden"></div>
+        <div className="lg:hidden">
+          <MobileNav />
+        </div>
       </header>
     </div>
   );
