@@ -12,7 +12,7 @@ export default function ServicesSection() {
           chaque organisation et gestionnaire.
         </p>
       </div>
-      <div className="grid grid-cols-1 gap-6 pb-28 md:grid-cols-3 md:gap-16">
+      <div className="grid grid-cols-1 gap-6 pb-28 md:grid-cols-2 md:gap-10 lg:grid-cols-3 lg:gap-16">
         <Card>
           <h4 className="text-xl font-bold pb-4">
             Coaching de gestion <br />
