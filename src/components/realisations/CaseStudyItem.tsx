@@ -11,7 +11,7 @@ export default function CaseStudyItem({ reverse = false }: CaseStudyItemProps) {
       <h2 className="font-finalsix text-[40px] font-bold pb-10">LOREM IPSUM</h2>
       <p className="text-xl">
         <b>Marie-Dianne Perron</b>, fondatrice de <b>Kazi Conseils</b>,
-        <br />
+        <br className="hidden min-[1400px]:inline" />
         est spécialiste du coaching de gestionnaires dans l&apos;action - Pour
         les leaders de grandes organisations et du secteur public qui ont
         besoin d&apos;accompagnement stratégique dans l&apos;exécution de leurs plans

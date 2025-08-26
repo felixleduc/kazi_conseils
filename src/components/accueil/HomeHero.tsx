@@ -7,18 +7,18 @@ export default function HomeHero() {
       <div className="flex-1 order-1 lg:order-2 border-[1px] border-[#1E1F3F] rounded-4xl min-h-[300px] lg:min-h-[546px]">
         <div className="w-full h-full flex flex-col gap-4 justify-between py-8 px-6 lg:py-10 lg:pl-10 lg:pr-[70px] text-center lg:text-left items-center lg:items-start">
           <h2 className="font-finalsix text-[32px] lg:text-[40px] font-bold">
-            FAIRE LE PONT <br />
-            ENTRE GESTIONNAIRE <br />
+            FAIRE LE PONT <br className="hidden min-[1400px]:inline" />
+            ENTRE GESTIONNAIRE <br className="hidden min-[1400px]:inline" />
             ET ORGANISATION.
           </h2>
           <p className="text-lg md:text-xl">
             <b>Marie-Dianne Perron</b>, fondatrice de <b>Kazi Conseils</b>,
-            <br />
-            est spécialiste du coaching de gestionnaires <br />
-            dans l&apos;action - Pour les leaders de grandes <br />
-            organisations et du secteur public qui ont besoin <br />
-            d&apos;accompagnement stratégique dans l&apos;exécution <br />
-            de leurs plans de transformation ou d&apos;évolution <br />
+            <br className="hidden min-[1400px]:inline" />
+            est spécialiste du coaching de gestionnaires <br className="hidden min-[1400px]:inline" />
+            dans l&apos;action - Pour les leaders de grandes <br className="hidden min-[1400px]:inline" />
+            organisations et du secteur public qui ont besoin <br className="hidden min-[1400px]:inline" />
+            d&apos;accompagnement stratégique dans l&apos;exécution <br className="hidden min-[1400px]:inline" />
+            de leurs plans de transformation ou d&apos;évolution <br className="hidden min-[1400px]:inline" />
             organisationnelle.
           </p>
           <a

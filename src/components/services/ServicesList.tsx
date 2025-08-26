@@ -6,7 +6,7 @@ const services = [
     icon: "/icons/bousole.jpg",
     title: (
       <>
-        Coaching de gestion <br />
+        Coaching de gestion <br className="hidden min-[1400px]:inline" />
         dans l&apos;action
       </>
     ),
@@ -15,7 +15,7 @@ const services = [
     icon: "/icons/fleches.jpg",
     title: (
       <>
-        Gestion du changement <br />
+        Gestion du changement <br className="hidden min-[1400px]:inline" />
         et amélioration continue
       </>
     ),
@@ -24,7 +24,7 @@ const services = [
     icon: "/icons/tete.jpg",
     title: (
       <>
-        Développement <br />
+        Développement <br className="hidden min-[1400px]:inline" />
         du leadership et coaching
       </>
     ),
@@ -33,7 +33,7 @@ const services = [
     icon: "/icons/bulle.jpg",
     title: (
       <>
-        Expérience client <br />
+        Expérience client <br className="hidden min-[1400px]:inline" />
         et expérience employé
       </>
     ),
@@ -42,7 +42,7 @@ const services = [
     icon: "/icons/livres.jpg",
     title: (
       <>
-        Formations personnalisées <br />
+        Formations personnalisées <br className="hidden min-[1400px]:inline" />
         et soutien professionnel
       </>
     ),

@@ -5,10 +5,10 @@ const values = [
     title: "Accueil",
     text: (
       <>
-        J&apos;accompagne les gestionnaires <br />
-        deet les organisations à travers <br />
-        l&apos;évolution du marché afin de créer <br />
-        des environnements de travail <br />
+        J&apos;accompagne les gestionnaires <br className="hidden min-[1400px]:inline" />
+        deet les organisations à travers <br className="hidden min-[1400px]:inline" />
+        l&apos;évolution du marché afin de créer <br className="hidden min-[1400px]:inline" />
+        des environnements de travail <br className="hidden min-[1400px]:inline" />
         collaboratifs, respectueux et efficients.
       </>
     ),
@@ -17,10 +17,10 @@ const values = [
     title: "Autonomisation",
     text: (
       <>
-        Je propulse les gestionnaires vers <br />
-        l&apos;innovation et l&apos;autonomie à travers <br />
-        le déploiement de leurs plans <br />
-        d&apos;exécution et de transformation <br />
+        Je propulse les gestionnaires vers <br className="hidden min-[1400px]:inline" />
+        l&apos;innovation et l&apos;autonomie à travers <br className="hidden min-[1400px]:inline" />
+        le déploiement de leurs plans <br className="hidden min-[1400px]:inline" />
+        d&apos;exécution et de transformation <br className="hidden min-[1400px]:inline" />
         organisationnelle.
       </>
     ),

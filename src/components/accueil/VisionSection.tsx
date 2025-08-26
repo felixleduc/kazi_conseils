@@ -7,10 +7,10 @@ export default function VisionSection() {
           <div className="w-full h-full flex flex-col gap-4 justify-between py-6 px-6 text-left lg:px-10">
             <h4 className="font-finalsix text-3xl font-bold">VISION</h4>
             <p className="pb-6">
-              Chez Kazi Conseils, nous aspirons à être un leader reconnu pour <br />
-              le renforcement, la stimulation des compétences et le leadership <br />
-              des individus et des groupes. Nous créons des environnements <br />
-              où l&apos;autonomie, l&apos;innovation et la performance permettent aux <br />
+              Chez Kazi Conseils, nous aspirons à être un leader reconnu pour <br className="hidden min-[1400px]:inline" />
+              le renforcement, la stimulation des compétences et le leadership <br className="hidden min-[1400px]:inline" />
+              des individus et des groupes. Nous créons des environnements <br className="hidden min-[1400px]:inline" />
+              où l&apos;autonomie, l&apos;innovation et la performance permettent aux <br className="hidden min-[1400px]:inline" />
               organisations de prospérer dans un monde en constante évolution.
             </p>
             <ValuesList />

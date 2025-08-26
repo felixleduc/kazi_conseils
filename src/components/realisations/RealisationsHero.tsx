@@ -6,12 +6,12 @@ export default function RealisationsHero() {
       <div className="bg-[#1E1F3F] rounded-4xl h-[546px] flex px-20 py-10">
         <div className="flex-1 text-white w-fit h-fit mx-auto my-auto">
           <p className="pb-10">
-            <b>Kazi Conseils</b> adopte une approche unique, <br />
-            alliant gestion du changement et coaching <br />
-            dans l&apos;action, pour accompagner les <br />
-            individus et les organisations dans un <br />
-            environnement dynamique, en favorisant <br />
-            des transformations durables et le <br />
+            <b>Kazi Conseils</b> adopte une approche unique, <br className="hidden min-[1400px]:inline" />
+            alliant gestion du changement et coaching <br className="hidden min-[1400px]:inline" />
+            dans l&apos;action, pour accompagner les <br className="hidden min-[1400px]:inline" />
+            individus et les organisations dans un <br className="hidden min-[1400px]:inline" />
+            environnement dynamique, en favorisant <br className="hidden min-[1400px]:inline" />
+            des transformations durables et le <br className="hidden min-[1400px]:inline" />
             rassemblement des communautés.
           </p>
           <a
