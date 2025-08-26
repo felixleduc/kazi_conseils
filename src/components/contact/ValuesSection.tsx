@@ -30,10 +30,10 @@ const values = [
 export default function ValuesSection() {
   return (
     <>
-      <h3 className="font-finalsix text-[30px] font-extrabold mx-auto w-fit pb-16">
+      <h3 className="font-finalsix text-[30px] font-extrabold mx-auto w-fit pb-16 text-center">
         NOS VALEURS ET NOTRE MISSION
       </h3>
-      <div className="grid grid-cols-2 gap-16 pb-28 max-w-[1060px] mx-auto">
+      <div className="grid grid-cols-1 gap-8 pb-28 max-w-[1060px] mx-auto md:grid-cols-2 md:gap-16">
         {values.map((value) => (
           <Card key={value.title}>
             <h4 className="text-xl font-bold pb-4">{value.title}</h4>
