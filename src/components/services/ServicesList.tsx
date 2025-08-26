@@ -53,11 +53,11 @@ export default function ServicesList() {
   return (
     <>
       <h3 className="font-finalsix text-[30px] font-extrabold pb-16 text-center min-[1400px]:text-left">NOS SERVICES</h3>
-      <div className="grid grid-cols-1 gap-6 pb-28 px-4 place-items-center md:gap-10 md:px-16 min-[1400px]:grid-cols-3 min-[1400px]:gap-16 min-[1400px]:px-0 min-[1400px]:place-items-stretch">
+      <div className="grid grid-cols-1 gap-6 pb-28 px-4 place-items-center md:grid-cols-2 md:gap-10 md:px-16 min-[1400px]:grid-cols-3 min-[1400px]:gap-16 min-[1400px]:px-0 min-[1400px]:place-items-stretch">
         {services.map((service) => (
           <Card
             key={service.icon}
-            className="max-w-xs px-12 md:max-w-md md:px-20 md:text-center min-[1400px]:max-w-full min-[1400px]:px-10 min-[1400px]:text-left"
+            className="max-w-xs px-12 md:max-w-md md:px-20 min-[1400px]:max-w-full min-[1400px]:px-10 text-left"
           >
             <Image
               src={service.icon}
@@ -67,7 +67,7 @@ export default function ServicesList() {
               className="w-[80px] h-fit pb-4"
             />
             <h4 className="text-xl font-bold pb-4">{service.title}</h4>
-            <ul>
+            <ul className="list-disc pl-4">
               <li>lorem ipsum</li>
               <li>lorem ipsum</li>
               <li>lorem ipsum</li>
