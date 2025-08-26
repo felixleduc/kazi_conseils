@@ -2,16 +2,16 @@ import HeroSection from "@/components/general/HeroSection";
 
 export default function HomeHero() {
   return (
-    <HeroSection innerClassName="flex justify-between gap-10">
-      <div className="flex-1 bg-[#1E1F3F] rounded-4xl h-[546px]" />
-      <div className="flex-1 border-[1px] border-[#1E1F3F] rounded-4xl min-h-[546px]">
-        <div className="w-full h-full flex flex-col gap-4 justify-between py-10 pl-10 pr-[70px]">
-          <h2 className="font-finalsix text-[40px] font-bold">
+    <HeroSection innerClassName="flex flex-col gap-10 md:flex-row md:justify-between">
+      <div className="flex-1 order-2 md:order-1 bg-[#1E1F3F] rounded-4xl h-[300px] md:h-[546px]" />
+      <div className="flex-1 order-1 md:order-2 border-[1px] border-[#1E1F3F] rounded-4xl min-h-[300px] md:min-h-[546px]">
+        <div className="w-full h-full flex flex-col gap-4 justify-between py-8 px-6 md:py-10 md:pl-10 md:pr-[70px] text-center md:text-left items-center md:items-start">
+          <h2 className="font-finalsix text-[32px] md:text-[40px] font-bold">
             FAIRE LE PONT <br />
             ENTRE GESTIONNAIRE <br />
             ET ORGANISATION.
           </h2>
-          <p className="text-xl">
+          <p className="text-lg md:text-xl">
             <b>Marie-Dianne Perron</b>, fondatrice de <b>Kazi Conseils</b>,
             <br />
             est spécialiste du coaching de gestionnaires <br />
@@ -23,7 +23,7 @@ export default function HomeHero() {
           </p>
           <a
             href="#contact-form"
-            className="w-fit border-[1px] border-[#1E1F3F] rounded-4xl py-2 px-4 hover:scale-[102%] hover:border-[#DBE7F6] hover:bg-[#DBE7F6] transition-transform duration-100"
+            className="w-fit md:w-fit border-[1px] border-[#1E1F3F] rounded-4xl py-2 px-4 hover:scale-[102%] hover:border-[#DBE7F6] hover:bg-[#DBE7F6] transition-transform duration-100 mx-auto md:mx-0"
           >
             Consultation gratuite
           </a>

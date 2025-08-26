@@ -19,7 +19,10 @@ export default function ValuesList() {
   return (
     <section className="space-y-4">
       {rows.map((row, idx) => (
-        <div key={idx} className="flex flex-nowrap items-baseline gap-4">
+        <div
+          key={idx}
+          className="flex flex-wrap items-baseline justify-center gap-4 md:justify-start"
+        >
           {row.map((it) =>
             it.type === "title" ? (
               <h4 key={it.label} className="font-finalsix text-3xl font-bold">

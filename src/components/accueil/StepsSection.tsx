@@ -1,7 +1,7 @@
 export default function StepsSection() {
   return (
-    <div className="grid grid-cols-3 gap-16 pb-28">
-      <div className="flex items-center gap-6">
+    <div className="grid grid-cols-1 gap-10 pb-28 md:grid-cols-3 md:gap-16">
+      <div className="flex items-center gap-6 justify-center md:justify-start">
         <p className="font-finalsix text-6xl font-[900] text-white rounded-full px-[20px] py-2 bg-[#1E1F3F]">
           1
         </p>
@@ -10,7 +10,7 @@ export default function StepsSection() {
           réalité organisationnelle
         </p>
       </div>
-      <div className="flex items-center gap-6">
+      <div className="flex items-center gap-6 justify-center md:justify-start">
         <p className="font-finalsix text-6xl font-[900] text-white rounded-full px-[17px] py-2 bg-[#1E1F3F]">
           2
         </p>
@@ -19,7 +19,7 @@ export default function StepsSection() {
           terrain mise à votre profit
         </p>
       </div>
-      <div className="flex items-center gap-6">
+      <div className="flex items-center gap-6 justify-center md:justify-start">
         <p className="font-finalsix text-6xl font-[900] text-white rounded-full px-[18px] py-2 bg-[#1E1F3F]">
           3
         </p>
