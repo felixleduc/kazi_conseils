@@ -23,24 +23,24 @@ export default function Politiques() {
           </h4>
           <p className="pb-3">
             Conformément à la Loi 25 sur la protection des renseignements
-            personnels, Kazi <br className="hidden min-[1400px]:inline" />
+            personnels, Kazi <br />
             Conseils collecte uniquement les données nécessaires au bon
-            fonctionnement de <br className="hidden min-[1400px]:inline" />
+            fonctionnement de <br />
             ses services.
           </p>
           <p className="pb-3">
             Les utilisateurs disposent d&apos;un droit d&apos;accès, de
-            rectification et de suppression de <br className="hidden min-[1400px]:inline" />
+            rectification et de suppression de <br />
             leurs données personnelles en nous contactant à : [email].
           </p>
           <p className="pb-3">
             La personne responsable de la protection des renseignements
-            personnels chez Kazi <br className="hidden min-[1400px]:inline" />
+            personnels chez Kazi <br />
             Conseils est : [Nom et titre].{" "}
           </p>
           <p className="pb-3">
             Aucune donnée n&apos;est vendue ni partagée sans consentement
-            explicite. Pour toute <br className="hidden min-[1400px]:inline" />
+            explicite. Pour toute <br />
             question relative au traitement de vos données, veuillez nous écrire
             à [email].
           </p>
@@ -51,9 +51,9 @@ export default function Politiques() {
           </h4>
           <p className="pb-3">
             En utilisant ce site, vous acceptez de ne pas l&apos;employer à des
-            fins illégales ou <br className="hidden min-[1400px]:inline" />
+            fins illégales ou <br />
             nuisibles. Kazi Conseils décline toute responsabilité en cas
-            d&apos;interruption, d&apos;erreurs ou <br className="hidden min-[1400px]:inline" />
+            d&apos;interruption, d&apos;erreurs ou <br />
             de dommages liés à l&apos;utilisation du site.
           </p>
           <p className="pb-3">
@@ -62,7 +62,7 @@ export default function Politiques() {
           </p>
           <p className="pb-3">
             L&apos;utilisation du contenu de ce site, incluant la reproduction,
-            modification ou <br className="hidden min-[1400px]:inline" />
+            modification ou <br />
             distribution, requiert une autorisation écrite préalable.
           </p>
         </Card>
@@ -70,12 +70,12 @@ export default function Politiques() {
           <h4 className="text-2xl font-bold pb-4">PROPRIÉTÉ INTELLECTUELLE</h4>
           <p className="pb-3">
             L&apos;ensemble du contenu de ce site (textes, images, logos,
-            éléments graphiques, code, <br className="hidden min-[1400px]:inline" />
+            éléments graphiques, code, <br />
             etc.) est protégé par les lois sur la propriété intellectuelle.
           </p>
           <p className="pb-3">
             Toute reproduction ou utilisation non autorisée constitue une
-            violation pouvant <br className="hidden min-[1400px]:inline" />
+            violation pouvant <br />
             entraîner des sanctions civiles et pénales.
           </p>
         </Card>

@@ -6,7 +6,7 @@ const services = [
     icon: "/icons/bousole.jpg",
     title: (
       <>
-        Coaching de gestion <br className="hidden min-[1400px]:inline" />
+        Coaching de gestion <br />
         dans l&apos;action
       </>
     ),
@@ -15,7 +15,7 @@ const services = [
     icon: "/icons/fleches.jpg",
     title: (
       <>
-        Gestion du changement <br className="hidden min-[1400px]:inline" />
+        Gestion du changement <br />
         et amélioration continue
       </>
     ),
@@ -24,7 +24,7 @@ const services = [
     icon: "/icons/tete.jpg",
     title: (
       <>
-        Développement <br className="hidden min-[1400px]:inline" />
+        Développement <br />
         du leadership et coaching
       </>
     ),
@@ -33,7 +33,7 @@ const services = [
     icon: "/icons/bulle.jpg",
     title: (
       <>
-        Expérience client <br className="hidden min-[1400px]:inline" />
+        Expérience client <br />
         et expérience employé
       </>
     ),
@@ -42,7 +42,7 @@ const services = [
     icon: "/icons/livres.jpg",
     title: (
       <>
-        Formations personnalisées <br className="hidden min-[1400px]:inline" />
+        Formations personnalisées <br />
         et soutien professionnel
       </>
     ),
@@ -52,13 +52,10 @@ const services = [
 export default function ServicesList() {
   return (
     <>
-      <h3 className="font-finalsix text-[30px] font-extrabold pb-16 text-center min-[1400px]:text-left">NOS SERVICES</h3>
-      <div className="grid grid-cols-1 gap-6 pb-28 px-4 place-items-center md:grid-cols-2 md:gap-10 md:px-16 lg:grid-cols-3 lg:gap-16 lg:px-0 lg:place-items-stretch auto-rows-fr">
+      <h3 className="font-finalsix text-[30px] font-extrabold pb-16">NOS SERVICES</h3>
+      <div className="grid grid-cols-3 gap-16 pb-28">
         {services.map((service) => (
-          <Card
-            key={service.icon}
-            className="w-full h-full px-12 md:px-20 lg:px-10 text-left flex flex-col"
-          >
+          <Card key={service.icon}>
             <Image
               src={service.icon}
               alt=""
@@ -67,7 +64,7 @@ export default function ServicesList() {
               className="w-[80px] h-fit pb-4"
             />
             <h4 className="text-xl font-bold pb-4">{service.title}</h4>
-            <ul className="list-disc pl-4">
+            <ul>
               <li>lorem ipsum</li>
               <li>lorem ipsum</li>
               <li>lorem ipsum</li>
