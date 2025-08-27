@@ -14,7 +14,7 @@ export default function ContentSection({
   return (
     <div className={`bg-[#FAF4ED] rounded-t-[100px] h-fit ${className}`.trim()}>
       <div
-        className={`px-[60px] py-[100px] mx-auto w-full max-w-[1400px] ${innerClassName}`.trim()}
+        className={`px-6 py-16 sm:px-10 sm:py-24 lg:px-[60px] lg:py-[100px] mx-auto w-full max-w-[1400px] ${innerClassName}`.trim()}
       >
         {children}
       </div>
