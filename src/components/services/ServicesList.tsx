@@ -6,7 +6,7 @@ const services = [
     icon: "/icons/bousole.jpg",
     title: (
       <>
-        Coaching de gestion <br />
+        Coaching de gestion <br className="hidden xl:block" />
         dans l&apos;action
       </>
     ),
@@ -15,7 +15,7 @@ const services = [
     icon: "/icons/fleches.jpg",
     title: (
       <>
-        Gestion du changement <br />
+        Gestion du changement <br className="hidden xl:block" />
         et amélioration continue
       </>
     ),
@@ -24,7 +24,7 @@ const services = [
     icon: "/icons/tete.jpg",
     title: (
       <>
-        Développement <br />
+        Développement <br className="hidden xl:block" />
         du leadership et coaching
       </>
     ),
@@ -33,7 +33,7 @@ const services = [
     icon: "/icons/bulle.jpg",
     title: (
       <>
-        Expérience client <br />
+        Expérience client <br className="hidden xl:block" />
         et expérience employé
       </>
     ),
@@ -42,7 +42,7 @@ const services = [
     icon: "/icons/livres.jpg",
     title: (
       <>
-        Formations personnalisées <br />
+        Formations personnalisées <br className="hidden xl:block" />
         et soutien professionnel
       </>
     ),
@@ -53,9 +53,9 @@ export default function ServicesList() {
   return (
     <>
       <h3 className="font-finalsix text-[30px] font-extrabold pb-16">NOS SERVICES</h3>
-      <div className="grid grid-cols-3 gap-16 pb-28">
+      <div className="grid grid-cols-1 gap-8 pb-28 sm:grid-cols-2 lg:grid-cols-3 sm:gap-10 lg:gap-16">
         {services.map((service) => (
-          <Card key={service.icon}>
+          <Card key={service.icon} className="mx-auto max-w-[360px] h-full text-left">
             <Image
               src={service.icon}
               alt=""
@@ -64,7 +64,7 @@ export default function ServicesList() {
               className="w-[80px] h-fit pb-4"
             />
             <h4 className="text-xl font-bold pb-4">{service.title}</h4>
-            <ul>
+            <ul className="list-disc pl-4">
               <li>lorem ipsum</li>
               <li>lorem ipsum</li>
               <li>lorem ipsum</li>

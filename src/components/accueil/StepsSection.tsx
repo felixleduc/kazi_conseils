@@ -2,7 +2,7 @@ export default function StepsSection() {
   return (
     <div className="grid gap-8 pb-28 md:grid-cols-3 md:gap-16">
       <div className="flex items-center gap-6 mx-auto w-full max-w-[360px]">
-        <p className="font-finalsix text-6xl font-[900] text-white rounded-full w-16 h-16 flex items-center justify-center bg-[#1E1F3F]">
+        <p className="font-finalsix text-6xl font-[900] text-white rounded-full w-16 h-16 shrink-0 flex items-center justify-center bg-[#1E1F3F]">
           1
         </p>
         <p className="text-left">
@@ -11,7 +11,7 @@ export default function StepsSection() {
         </p>
       </div>
       <div className="flex items-center gap-6 mx-auto w-full max-w-[360px]">
-        <p className="font-finalsix text-6xl font-[900] text-white rounded-full w-16 h-16 flex items-center justify-center bg-[#1E1F3F]">
+        <p className="font-finalsix text-6xl font-[900] text-white rounded-full w-16 h-16 shrink-0 flex items-center justify-center bg-[#1E1F3F]">
           2
         </p>
         <p className="text-left">
@@ -20,7 +20,7 @@ export default function StepsSection() {
         </p>
       </div>
       <div className="flex items-center gap-6 mx-auto w-full max-w-[360px]">
-        <p className="font-finalsix text-6xl font-[900] text-white rounded-full w-16 h-16 flex items-center justify-center bg-[#1E1F3F]">
+        <p className="font-finalsix text-6xl font-[900] text-white rounded-full w-16 h-16 shrink-0 flex items-center justify-center bg-[#1E1F3F]">
           3
         </p>
         <p className="text-left">
