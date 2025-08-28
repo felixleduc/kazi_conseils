@@ -1,6 +1,6 @@
 export default function StepsSection() {
   return (
-    <div className="grid grid-cols-3 gap-16 pb-28">
+    <div className="grid min-[1400px]:grid-cols-3 mx-auto w-fit gap-16 pb-28">
       <div className="flex items-center gap-6">
         <p className="font-finalsix text-6xl font-[900] text-white rounded-full px-[20px] py-2 bg-[#1E1F3F]">
           1

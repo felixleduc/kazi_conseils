@@ -79,7 +79,7 @@ export default function ContactForm() {
       id="contact-form"
       className="rounded-4xl bg-white px-18 py-8 drop-shadow-xl max-w-[1060px] mx-auto"
     >
-      <div className="flex flex-col gap-2 items-center pb-12">
+      <div className="flex flex-col gap-2 items-center text-center pb-12">
         <h3 className="font-finalsix text-[30px] font-bold">
           NAVIGUER ENTRE STRATÉGIE, EXÉCUTION ET HUMAIN.
         </h3>
@@ -99,8 +99,8 @@ export default function ContactForm() {
           className="hidden"
         />
 
-        <div className="flex gap-8 justify-between w-full">
-          <div className="relative w-1/2">
+        <div className="flex md:flex-row flex-col gap-8 justify-between w-full">
+          <div className="relative md:w-1/2 w-full">
             <input
               id="nom"
               name="nom"
@@ -135,7 +135,7 @@ export default function ContactForm() {
               </p>
             )}
           </div>
-          <div className="relative w-1/2">
+          <div className="relative md:w-1/2 w-full">
             <input
               id="email"
               name="email"

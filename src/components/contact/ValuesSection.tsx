@@ -33,7 +33,7 @@ export default function ValuesSection() {
       <h3 className="font-finalsix text-[30px] font-extrabold mx-auto w-fit pb-16">
         NOS VALEURS ET NOTRE MISSION
       </h3>
-      <div className="grid grid-cols-2 gap-16 pb-28 max-w-[1060px] mx-auto">
+      <div className="grid lg:grid-cols-2 mx-auto w-fit text-center lg:text-left gap-16 pb-28 max-w-[1060px]">
         {values.map((value) => (
           <Card key={value.title}>
             <h4 className="text-xl font-bold pb-4">{value.title}</h4>
@@ -44,4 +44,3 @@ export default function ValuesSection() {
     </>
   );
 }
-

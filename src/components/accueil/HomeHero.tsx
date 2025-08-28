@@ -2,10 +2,10 @@ import HeroSection from "@/components/general/HeroSection";
 
 export default function HomeHero() {
   return (
-    <HeroSection innerClassName="flex justify-between gap-10">
-      <div className="flex-1 bg-[#1E1F3F] rounded-4xl h-[546px]" />
-      <div className="flex-1 border-[1px] border-[#1E1F3F] rounded-4xl min-h-[546px]">
-        <div className="w-full h-full flex flex-col gap-4 justify-between py-10 pl-10 pr-[70px]">
+    <HeroSection innerClassName="flex flex-col-reverse min-[1400px]:flex-row justify-between gap-10">
+      <div className="min-[1400px]:flex-1 mx-auto bg-[#1E1F3F] rounded-4xl h-[546px] w-[546px]" />
+      <div className="min-[1400px]:flex-1 w-fit mx-auto border-[1px] border-[#1E1F3F] rounded-4xl min-h-[546px]">
+        <div className="flex flex-col gap-4 justify-between py-10 pl-10 pr-[70px]">
           <h2 className="font-finalsix text-[40px] font-bold">
             FAIRE LE PONT <br />
             ENTRE GESTIONNAIRE <br />

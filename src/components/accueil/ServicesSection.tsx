@@ -3,16 +3,16 @@ import Card from "@/components/general/Card";
 export default function ServicesSection() {
   return (
     <>
-      <div className="flex flex-col gap-2 items-center pb-16">
+      <div className="flex flex-col gap-2 items-center text-center pb-16">
         <h3 className="font-finalsix text-[30px] font-bold">
           NAVIGUER ENTRE STRATÉGIE, EXÉCUTION ET HUMAIN.
         </h3>
         <p>
-          Des solutions sur mesure adaptées aux besoins spécifiques de
-          chaque organisation et gestionnaire.
+          Des solutions sur mesure adaptées aux besoins spécifiques de chaque
+          organisation et gestionnaire.
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-16 pb-28">
+      <div className="grid min-[1400px]:grid-cols-3 mx-auto w-fit text-center gap-16 pb-28">
         <Card>
           <h4 className="text-xl font-bold pb-4">
             Coaching de gestion <br />
@@ -54,4 +54,3 @@ export default function ServicesSection() {
     </>
   );
 }
-

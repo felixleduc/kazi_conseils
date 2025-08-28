@@ -52,8 +52,10 @@ const services = [
 export default function ServicesList() {
   return (
     <>
-      <h3 className="font-finalsix text-[30px] font-extrabold pb-16">NOS SERVICES</h3>
-      <div className="grid grid-cols-3 gap-16 pb-28">
+      <h3 className="font-finalsix text-[30px] font-extrabold pb-16">
+        NOS SERVICES
+      </h3>
+      <div className="grid min-[1400px]:!grid-cols-3 lg:grid-cols-2 w-fit mx-auto gap-16 pb-28">
         {services.map((service) => (
           <Card key={service.icon}>
             <Image
@@ -64,15 +66,20 @@ export default function ServicesList() {
               className="w-[80px] h-fit pb-4"
             />
             <h4 className="text-xl font-bold pb-4">{service.title}</h4>
-            <ul>
+            <ul className="list-disc pl-4 pb-2">
               <li>lorem ipsum</li>
               <li>lorem ipsum</li>
               <li>lorem ipsum</li>
             </ul>
+            <a
+              href="#"
+              className="text-[#7694CC] hover:opacity-70 transition-all duration-300"
+            >
+              En savoir plus &gt;
+            </a>
           </Card>
         ))}
       </div>
     </>
   );
 }
-
