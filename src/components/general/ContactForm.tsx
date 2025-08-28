@@ -180,7 +180,7 @@ export default function ContactForm() {
             aria-invalid={!!errors.message}
             aria-describedby={errors.message ? "message-error" : undefined}
             className="
-              peer w-full border-b-2 pb-2 border-[#1E1F3F]
+              peer w-full border-b-2 pb-2 border-[#1E1F3F] overflow-hidden
               placeholder:text-xl placeholder:text-[#1E1F3F] placeholder:font-bold
               resize-none focus:outline-none focus:ring-0 focus:placeholder-transparent
               data-[invalid=true]:border-red-500

@@ -14,11 +14,10 @@ export default function ContentSection({
   return (
     <div className={`bg-[#FAF4ED] rounded-t-[100px] h-fit ${className}`.trim()}>
       <div
-        className={`px-[60px] py-[100px] mx-auto w-full max-w-[1400px] ${innerClassName}`.trim()}
+        className={`sm:px-[60px] px-[20px] py-[100px] mx-auto w-full max-w-[1400px] ${innerClassName}`.trim()}
       >
         {children}
       </div>
     </div>
   );
 }
-

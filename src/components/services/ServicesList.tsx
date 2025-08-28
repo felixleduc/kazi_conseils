@@ -52,7 +52,7 @@ const services = [
 export default function ServicesList() {
   return (
     <>
-      <h3 className="font-finalsix text-[30px] font-extrabold pb-16">
+      <h3 className="font-finalsix text-[30px] min-[1052px]:text-left text-center font-extrabold pb-16">
         NOS SERVICES
       </h3>
       <div className="grid min-[1400px]:!grid-cols-3 lg:grid-cols-2 w-fit mx-auto gap-16 pb-28">

@@ -12,7 +12,7 @@ export default function ServicesSection() {
           organisation et gestionnaire.
         </p>
       </div>
-      <div className="grid min-[1400px]:grid-cols-3 mx-auto w-fit text-center gap-16 pb-28">
+      <div className="grid min-[1400px]:grid-cols-3 mx-auto w-fit gap-16 pb-28">
         <Card>
           <h4 className="text-xl font-bold pb-4">
             Coaching de gestion <br />
@@ -28,7 +28,8 @@ export default function ServicesSection() {
         </Card>
         <Card>
           <h4 className="text-xl font-bold pb-4">
-            Accompagnement en gestion de changement
+            Accompagnement en <br className="min-[1400px]:hidden block" />{" "}
+            gestion de changement
           </h4>
           <p>
             J&apos;accompagne les gestionnaires <br />
@@ -40,7 +41,8 @@ export default function ServicesSection() {
         </Card>
         <Card>
           <h4 className="text-xl font-bold pb-4">
-            Plans stratégiques et plans d&apos;exécution
+            Plans stratégiques et <br className="min-[1400px]:hidden block" />{" "}
+            plans d&apos;exécution
           </h4>
           <p>
             Je propulse les gestionnaires vers <br />
